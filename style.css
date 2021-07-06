@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100deg, rgba(106, 230, 90, 0.603), rgba(0, 47, 255, 0.603));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 5, 71);
+}
+.container {
+    display: grid;
+    place-items: center;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.144);
+    margin: 4rem auto;
+    border-radius: .7rem;
+    box-shadow: 2px 2px 2px #57565625;
+    transition: all 0.3s;
+}
+.container:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+    box-shadow: 4px 4px 2px 4px #413f3f25;
+}
+#input {
+    background-color: rgb(192, 231, 253);
+    border: 2px solid royalblue;
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 1px 2px 2px 0px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#input:focus {
+    outline: none !important;
+    border: 2px solid rgb(0, 153, 0);
+}
+
+#enter {
+    background-color: rgb(6, 160, 39);
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-weight: bolder;
+    margin-left: .5rem;
+}
+.items {
+    display: flex;
+   align-items: flex-start;
+   font-family: monospace;
+   font-size: large;
+   cursor: pointer;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: rgba(255, 0, 55, 0.822);
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2px;
+    font-weight: bolder;
+    margin-left: .6rem;
+    box-shadow: 1px 2px 2px 0px #000000;
+}
+.done {
+    text-decoration: line-through;
+    text-decoration-color: rgb(243, 89, 78);
+}
